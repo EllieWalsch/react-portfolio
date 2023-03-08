@@ -2,6 +2,7 @@ import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Title from "./components/Title";
+import PortfolioCard from "./components/PortfolioCard";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <Title text={"Test"} />
       <AboutMe />
+      <PortfolioCard />
       <Footer />
     </>
   );
