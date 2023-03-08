@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import PortfolioCard from "./PortfolioCard";
@@ -15,3 +16,7 @@ export default function MainContainer({ currentPath }) {
       return <Contact />;
   }
 }
+
+MainContainer.propTypes = {
+  currentPath: PropTypes.string.isRequired,
+};
