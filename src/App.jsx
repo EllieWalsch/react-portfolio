@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Title from "./components/Title";
 import PortfolioCard from "./components/PortfolioCard";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <PortfolioCard />
       <Resume />
+      <Contact />
       <Footer />
     </>
   );
