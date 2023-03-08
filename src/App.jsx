@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Ellie Walsch</h1>
+      <h1 className="mt-5 ml-2 text-5xl font-bold">Ellie Walsch</h1>
       <NavBar />
       <Footer />
     </>
