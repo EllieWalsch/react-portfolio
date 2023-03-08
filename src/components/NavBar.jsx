@@ -3,8 +3,8 @@ export default function NavBar({ handleClick }) {
     <nav>
       <ul className="flex flex-row justify-center gap-5">
         <li>
-          <a href="/" onClick={handleClick}>
-            About Me
+          <a href="/about" onClick={handleClick}>
+            About
           </a>
         </li>
         <li>
