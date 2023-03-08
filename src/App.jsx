@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <h1 className="mt-5 ml-2 text-5xl font-bold">Ellie Walsch</h1>
       <NavBar />
+      <AboutMe />
       <Footer />
     </>
   );
