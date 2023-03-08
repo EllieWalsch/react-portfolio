@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <main className="flex justify-center">
+    <main className="mt-10 flex justify-center">
       <form>
         <label htmlFor="Name">Name</label>
         <div>

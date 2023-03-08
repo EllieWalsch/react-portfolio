@@ -1,6 +1,6 @@
 export default function PortfolioCard() {
   return (
-    <main>
+    <main className="mt-10 flex justify-center">
       <figure>
         <figcaption>FBI Profiler</figcaption>
         <img
