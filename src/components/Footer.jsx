@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="absolute inset-x-0 bottom-0 h-16">
+    <footer className="inset-x-0 bottom-0 h-16">
       <ul className="flex flex-row justify-center gap-5">
         <li>
           <a
