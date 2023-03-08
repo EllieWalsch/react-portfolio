@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function NavBar({ handleClick }) {
   return (
     <nav>
@@ -26,3 +28,7 @@ export default function NavBar({ handleClick }) {
     </nav>
   );
 }
+
+NavBar.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+};
