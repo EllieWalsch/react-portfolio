@@ -1,11 +1,9 @@
-import AboutMe from "./components/AboutMe";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import NavBar from "./components/NavBar";
-import PortfolioCard from "./components/PortfolioCard";
-import Resume from "./components/Resume";
-import Title from "./components/Title";
+// import AboutMe from "./components/AboutMe";
 import React from "react";
+import Footer from "./components/Footer";
+import MainContainer from "./components/MainContainer";
+import NavBar from "./components/NavBar";
+import Title from "./components/Title";
 
 function App() {
   const [currentPath, setCurrentPath] = React.useState("/");
@@ -15,20 +13,12 @@ function App() {
     setCurrentPath("/" + event.target.textContent.toLowerCase());
   };
 
-  switch (currentPath) {
-    case "/about":
-      return <AboutMe />;
-  }
-
   return (
     <>
       <h1 className="mt-5 ml-2 text-5xl font-bold">Ellie Walsch</h1>
       <NavBar handleClick={handleNavClick} />
-
       <Title text={"Test"} />
-      <PortfolioCard />
-      <Resume />
-      <Contact />
+      <MainContainer currentPath={currentPath} />
       <Footer />
     </>
   );
