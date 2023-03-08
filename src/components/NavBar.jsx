@@ -1,18 +1,26 @@
-export default function NavBar() {
+export default function NavBar({ handleClick }) {
   return (
     <nav>
       <ul className="flex flex-row justify-center gap-5">
         <li>
-          <a href="/">About Me</a>
+          <a href="/" onClick={handleClick}>
+            About Me
+          </a>
         </li>
         <li>
-          <a href="/portfolio">Portfolio</a>
+          <a href="/portfolio" onClick={handleClick}>
+            Portfolio
+          </a>
         </li>
         <li>
-          <a href="/resume">Resume</a>
+          <a href="/resume" onClick={handleClick}>
+            Resume
+          </a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="/contact" onClick={handleClick}>
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
