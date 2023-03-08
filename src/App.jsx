@@ -17,7 +17,7 @@ function App() {
     <>
       <h1 className="mt-5 ml-2 text-5xl font-bold">Ellie Walsch</h1>
       <NavBar handleClick={handleNavClick} />
-      <Title text={"Test"} />
+      <Title text={currentPath.slice(1).toUpperCase()} />
       <MainContainer currentPath={currentPath} />
       <Footer />
     </>
