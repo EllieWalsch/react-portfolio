@@ -1,7 +1,7 @@
 export default function NavBar() {
   return (
     <nav>
-      <ul className="flex flex-row gap-5">
+      <ul className="flex flex-row justify-center gap-5">
         <li>
           <a href="/">About Me</a>
         </li>
