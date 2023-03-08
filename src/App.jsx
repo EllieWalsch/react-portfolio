@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Title from "./components/Title";
 import PortfolioCard from "./components/PortfolioCard";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Title text={"Test"} />
       <AboutMe />
       <PortfolioCard />
+      <Resume />
       <Footer />
     </>
   );
