@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <main className="mt-20 flex flex-col items-center gap-5">
+    <main className="mt-11 flex flex-col items-center gap-5">
       <p className="w-2/4 text-center">
         ABOUT ME: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
         do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

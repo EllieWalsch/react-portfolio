@@ -1,7 +1,7 @@
 export default function Resume() {
   return (
     <main className="flex justify-center">
-      <p className="mt-20 w-2/4 text-center">
+      <p className="mt-11 w-2/4 text-center">
         RESUME: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
