@@ -1,8 +1,8 @@
 export default function PortfolioCard() {
   return (
-    <main className="mx-16 mb-16 mt-10 grid grid-cols-3 grid-rows-2 justify-items-center gap-2">
-      <figure>
-        <figcaption>FBI Profiler</figcaption>
+    <main className="mx-16 mt-10 grid grid-cols-3 grid-rows-2 justify-items-center gap-2 pb-3">
+      <figure className="hover:opacity-50">
+        <figcaption className="text-center">FBI Profiler</figcaption>
         <img src="src\images\fbi.png" alt="" width="400" height="186" />
       </figure>
       <figure>
