@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="absolute inset-x-0 bottom-0 h-16">
+    <footer className="fixed inset-x-0 bottom-0 h-10">
       <ul className="flex flex-row justify-center gap-5">
-        <li>
+        <li className="rounded-lg bg-darkpink px-5 opacity-75">
           <a
             href="https://github.com/EllieWalsch"
             target="_blank"
@@ -11,7 +11,7 @@ export default function Footer() {
             Github
           </a>
         </li>
-        <li>
+        <li className="rounded-lg bg-darkpink px-5 opacity-75">
           <a
             href="https://www.linkedin.com/in/ellie-walsch-691622251/"
             target="_blank"
