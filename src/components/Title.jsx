@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 export default function Title({ text }) {
   return (
     <header className="flex justify-center">
-      <h2 className="mt-10 w-2/4 text-2xl">{text}</h2>
+      <h2 className="mt-10 w-2/4 text-2xl font-semibold text-green">{text}</h2>
     </header>
   );
 }
