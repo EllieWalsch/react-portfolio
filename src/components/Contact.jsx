@@ -51,11 +51,14 @@ export default function Contact() {
   };
 
   return (
-    <main className="mt-10 flex justify-center">
-      <form>
-        <label htmlFor="Name">Name</label>
+    <main className="mt-10 flex flex-col items-center gap-5">
+      <form className="flex flex-col items-center rounded-md border-4 border-green p-3">
+        <label className="mt-3 self-start" htmlFor="Name">
+          Name
+        </label>
         <div>
           <input
+            className="rounded"
             value={name}
             name="name"
             onChange={handleInputChange}
@@ -63,32 +66,34 @@ export default function Contact() {
           />
         </div>
 
+        <label className="mt-3 self-start" htmlFor="Email">
+          Email Address
+        </label>
         <div>
-          <label htmlFor="Email">Email Address</label>
-          <div>
-            <input
-              value={email}
-              name="email"
-              onChange={handleInputChange}
-              type="email"
-            />
-          </div>
+          <input
+            className="rounded"
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+          />
         </div>
 
+        <label className="mt-3 self-start" htmlFor="Message">
+          Message
+        </label>
         <div>
-          <label htmlFor="Message">Message</label>
-          <div>
-            <textarea
-              value={message}
-              name="message"
-              onChange={handleInputChange}
-              type="text"
-            ></textarea>
-          </div>
+          <textarea
+            className="rounded"
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="text"
+          ></textarea>
         </div>
 
         <button
-          className="rounded-lg bg-lightpink px-5 text-center"
+          className="mt-3 rounded-lg bg-lightpink px-20 py-2 text-center"
           type="submit"
           onClick={handleFormSubmit}
         >
