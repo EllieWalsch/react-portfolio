@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Contact() {
   const [email, setEmail] = React.useState("");
-  const [errorMessage, setErrorMessage] = React.useState("");
+  const [message, setMessage] = React.useState("");
 
   const handleInputChange = (event) => {
     // Getting the value and name of the input which triggered the change
@@ -22,12 +22,13 @@ export default function Contact() {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!checkEmail(email)) {
-      setErrorMessage("Email is invalid");
+      setMessage("Email is invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
     }
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setEmail("");
+    setMessage("Thank you for reaching out!");
   };
 
   return (
@@ -65,9 +66,9 @@ export default function Contact() {
           Send
         </button>
       </form>
-      {errorMessage && (
+      {message && (
         <div>
-          <p>{errorMessage}</p>
+          <p>{message}</p>
         </div>
       )}
     </main>
