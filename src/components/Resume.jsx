@@ -1,6 +1,13 @@
 export default function Resume() {
   return (
-    <main className="flex justify-center">
+    <main className="flex flex-col items-center justify-center">
+      <a
+        className="text-center"
+        href="https://docs.google.com/document/d/1USzLRZXR97PiWVF2JWcFNY4X_NQfTnqaRgEn8TDCqNI/edit?usp=sharing"
+        download
+      >
+        Download
+      </a>
       <p className="mt-11 w-2/4 text-center">
         RESUME: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
