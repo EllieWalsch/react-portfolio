@@ -10,7 +10,9 @@ function App() {
 
   const handleNavClick = (event) => {
     event.preventDefault();
-    setCurrentPath("/" + event.target.textContent.toLowerCase());
+
+    const clickedLinkText = event.target.textContent;
+    setCurrentPath("/" + clickedLinkText.toLowerCase());
   };
 
   // TODO: Where to put switch case statements?
