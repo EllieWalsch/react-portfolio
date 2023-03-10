@@ -15,17 +15,13 @@ function App() {
     setCurrentPath("/" + clickedLinkText.toLowerCase());
   };
 
-  // TODO: Where to put switch case statements?
-  // This example will stay on the homepage the entire time
-  // it would be beneficial to change the URL for each component
-
   return (
     <>
       <h1 className="mt-5 ml-2 text-center text-5xl font-bold text-orange">
         Ellie Walsch
       </h1>
       <NavBar handleClick={handleNavClick} />
-      <p className="mt-5 text-center">┉┈◈◉◈┈┉</p>
+      <p className="mt-5 pb-5 text-center shadow-md">┉┈◈◉◈┈┉</p>
       <Title text={currentPath.slice(1).toUpperCase() || "ABOUT"} />
       <MainContainer currentPath={currentPath} />
       <Footer />
