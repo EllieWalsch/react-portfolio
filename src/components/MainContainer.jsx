@@ -6,7 +6,6 @@ import PortfolioCard from "./PortfolioCard";
 import Resume from "./Resume";
 
 export default function MainContainer({ currentPath }) {
-  console.log(currentPath);
   switch (currentPath) {
     case "/portfolio":
       return <PortfolioCard projectData={projectData} key={projectData.id} />;
@@ -18,6 +17,8 @@ export default function MainContainer({ currentPath }) {
       return <AboutMe />;
   }
 }
+
+// TODO: consider wrapping title component in main container
 
 MainContainer.propTypes = {
   currentPath: PropTypes.string.isRequired,
