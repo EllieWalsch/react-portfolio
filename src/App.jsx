@@ -26,7 +26,7 @@ function App() {
       </h1>
       <NavBar handleClick={handleNavClick} />
       <p className="mt-5 text-center">┉┈◈◉◈┈┉</p>
-      <Title text={currentPath.slice(1).toUpperCase()} />
+      <Title text={currentPath.slice(1).toUpperCase() || "ABOUT"} />
       <MainContainer currentPath={currentPath} />
       <Footer />
     </>
