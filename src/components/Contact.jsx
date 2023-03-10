@@ -1,10 +1,11 @@
-import checkEmail from "../utils/checkEmail";
 import React from "react";
+import checkEmail from "../utils/checkEmail";
 
 export default function Contact() {
   const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  const [alert, setAlert] = React.useState("");
   const [name, setName] = React.useState("");
+  const [message, setMessage] = React.useState("");
 
   const handleInputChange = (event) => {
     // Getting the value and name of the input which triggered the change
@@ -18,6 +19,9 @@ export default function Contact() {
     if (inputType === "name") {
       setName(inputValue);
     }
+    if (inputType === "message") {
+      setMessage(inputValue);
+    }
   };
 
   const handleFormSubmit = (event) => {
@@ -26,19 +30,24 @@ export default function Contact() {
 
     // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
     if (!checkEmail(email)) {
-      setMessage("Email is invalid");
+      setAlert("Email is invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
     }
     if (!name) {
-      setMessage("Name is required");
+      setAlert("Name is required");
+      return;
+    }
+    if (!message) {
+      setAlert("Message is required");
       return;
     }
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setEmail("");
     setName("");
-    setMessage("Thank you for reaching out!");
+    setMessage("");
+    setAlert("Thank you for reaching out!");
   };
 
   return (
@@ -69,7 +78,12 @@ export default function Contact() {
         <div>
           <label htmlFor="Message">Message</label>
           <div>
-            <textarea></textarea>
+            <textarea
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="text"
+            ></textarea>
           </div>
         </div>
 
@@ -81,9 +95,9 @@ export default function Contact() {
           Send
         </button>
       </form>
-      {message && (
+      {alert && (
         <div>
-          <p>{message}</p>
+          <p>{alert}</p>
         </div>
       )}
     </main>
