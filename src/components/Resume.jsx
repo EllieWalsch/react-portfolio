@@ -3,7 +3,7 @@ export default function Resume() {
     <main className="flex flex-col items-center justify-center">
       <a
         className="text-center"
-        href="https://docs.google.com/document/d/1USzLRZXR97PiWVF2JWcFNY4X_NQfTnqaRgEn8TDCqNI/edit?usp=sharing"
+        href="https://docs.google.com/document/d/1vodTwuyGRayJlsegbbpd_G_K_GWYQBX2wptynW6PhJk/edit?usp=sharing"
         download
       >
         Download
