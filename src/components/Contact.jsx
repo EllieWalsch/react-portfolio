@@ -1,4 +1,4 @@
-import checkEmail from "../utils/validateEmail";
+import checkEmail from "../utils/checkEmail";
 import React from "react";
 
 export default function Contact() {
