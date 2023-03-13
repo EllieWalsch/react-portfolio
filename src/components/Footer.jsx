@@ -20,6 +20,15 @@ export default function Footer() {
             LinkedIn
           </a>
         </li>
+        <li className="rounded-lg bg-darkpink px-5 opacity-75 hover:bg-lightpink">
+          <a
+            href="https://stackoverflow.com/users/21390940/ellie-walsch"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Stack Overflow
+          </a>
+        </li>
       </ul>
     </footer>
   );
