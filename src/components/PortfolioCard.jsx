@@ -4,8 +4,18 @@ export default function PortfolioCard({ projectData }) {
       {projectData.map((project) => {
         return (
           <figure className="hover:opacity-50">
-            <figcaption className="text-center">{project.name}</figcaption>
-            <img src={project.src} alt="" width="400" height="186" />
+            <figcaption className="text-center text-lg">
+              {project.name}
+            </figcaption>
+            <a
+              className="rounded-lg bg-lightpink px-5 text-center"
+              href={project.github}
+            >
+              Github
+            </a>
+            <a href={project.deployed}>
+              <img src={project.src} alt="" width="400" height="186" />
+            </a>
           </figure>
         );
       })}
