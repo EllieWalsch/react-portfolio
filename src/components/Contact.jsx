@@ -29,13 +29,13 @@ export default function Contact() {
     event.preventDefault();
 
     // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
+    if (!name) {
+      setAlert("Name is required");
+      return;
+    }
     if (!checkEmail(email)) {
       setAlert("Email is invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-    }
-    if (!name) {
-      setAlert("Name is required");
       return;
     }
     if (!message) {
