@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 export default function NavBar({ handleClick }) {
   return (
     <nav>
-      <ul className="mt-5 flex flex-row justify-center gap-5 text-xl uppercase text-darkpink">
+      <ul className="mt-5 flex flex-row justify-center gap-5 uppercase text-darkpink sm:text-xl">
         <li>
           <a href="/about" onClick={handleClick}>
             About
