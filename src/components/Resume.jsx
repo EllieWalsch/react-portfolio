@@ -17,6 +17,26 @@ export default function Resume() {
         Google Workspace, and Vinsolutions. Experience with Javascript, MERN,
         and React.
       </p>
+      <p className="mt-11 w-2/4 text-xl font-semibold text-green sm:justify-self-start">
+        Experience:
+      </p>
+      <ul className="w-2/4 sm:justify-self-start">
+        <li>Mungenast Lexus of St. Louis - Digital Retail Manager</li>
+        <li className="text-sm font-extralight">
+          DECEMBER 2019 - OCTOBER 2022
+        </li>
+        <li className="ml-5 list-disc">
+          Manage all customer contact through the dealership Customer
+          Relationship Management System
+        </li>
+        <li className="ml-5 list-disc">
+          Collect accurate records of customer turnout and outcomes
+        </li>
+        <li className="ml-5 list-disc">
+          Establish and predict monthly performance goals
+        </li>
+        <li className="ml-5 list-disc">Design website sales campaigns</li>
+      </ul>
     </main>
   );
 }
