@@ -2,13 +2,11 @@ export default function AboutMe() {
   return (
     <main className="mt-11 flex flex-col items-center gap-5">
       <p className="w-2/4 text-center">
-        ABOUT ME: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim id est laborum.
+        Hi! My name is Ellie Walsch. I'm a current WashU bootcamp student and
+        I'm excited to break into the world of coding! I have experience with
+        Javascript, MERN, and React. Please visit my portfolio page to check out
+        some of my previous work! Feel free to reach out with any questions on
+        the contact page.
       </p>
       <figure>
         <img
