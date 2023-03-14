@@ -1,3 +1,5 @@
+import me from "../images/me-2.jpg";
+
 export default function AboutMe() {
   return (
     <main className="mt-11 flex flex-col items-center gap-5">
@@ -11,7 +13,7 @@ export default function AboutMe() {
       <figure>
         <img
           className="rounded-full"
-          src="./src/images/me-2.jpg"
+          src={me}
           alt=""
           width="250"
           height="181"
