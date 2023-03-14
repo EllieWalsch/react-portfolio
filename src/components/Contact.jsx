@@ -28,18 +28,14 @@ export default function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
 
-    // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
-    if (!name) {
-      setAlert("Name is required");
+    // Check to see if the email is not valid or if the name/message is empty. If so we set an error message to be displayed on the page.
+    if (!name || !message) {
+      setAlert("Please enter the required fields");
       return;
     }
     if (!checkEmail(email)) {
       setAlert("Email is invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-    }
-    if (!message) {
-      setAlert("Message is required");
       return;
     }
 
@@ -63,6 +59,10 @@ export default function Contact() {
             name="name"
             onChange={handleInputChange}
             type="text"
+            onBlur={(event) => {
+              if (!name) setAlert("Name is required");
+            }}
+            onFocus={() => setAlert("")}
           />
         </div>
 
@@ -76,6 +76,10 @@ export default function Contact() {
             name="email"
             onChange={handleInputChange}
             type="email"
+            onBlur={(event) => {
+              if (!email) setAlert("Email is required");
+            }}
+            onFocus={() => setAlert("")}
           />
         </div>
 
@@ -89,6 +93,10 @@ export default function Contact() {
             name="message"
             onChange={handleInputChange}
             type="text"
+            onBlur={(event) => {
+              if (!message) setAlert("Message is required");
+            }}
+            onFocus={() => setAlert("")}
           ></textarea>
         </div>
 
