@@ -11,7 +11,7 @@ export default function AboutMe() {
       <figure>
         <img
           className="rounded-full"
-          src="src\images\me-2.jpg"
+          src="./src/images/me-2.jpg"
           alt=""
           width="250"
           height="181"
