@@ -37,6 +37,17 @@ export default function Resume() {
         </li>
         <li className="ml-5 list-disc">Design website sales campaigns</li>
       </ul>
+      <ul className="mt-6 w-2/4 sm:justify-self-start">
+        <li>Manchester Eye Care - Optical Assistant</li>
+        <li className="text-sm font-extralight">JANUARY 2019 - JUNE 2019</li>
+        <li className="ml-5 list-disc">
+          Recommend and sell eyewear based on customer needs
+        </li>
+        <li className="ml-5 list-disc">
+          Preform retina exams using latest biometric technology
+        </li>
+        <li className="ml-5 list-disc">Schedule patient exams</li>
+      </ul>
     </main>
   );
 }
