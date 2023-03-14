@@ -1,10 +1,12 @@
+import fbiProfiler from "../images/FBI-profiler.png";
+
 export default [
   {
     name: "FBI Profiler",
     github: "https://github.com/EllieWalsch/fbi-profiler",
     deployed: "https://fbi-profiler.herokuapp.com/login",
     id: 1,
-    src: "src/images/fbi.png",
+    src: { fbiProfiler },
   },
   {
     name: "JATE",
