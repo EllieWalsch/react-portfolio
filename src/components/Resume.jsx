@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <main className="flex flex-col items-center justify-center">
       <a
-        className="text-center"
+        className="rounded-lg bg-lightpink px-5 text-center"
         href="https://docs.google.com/document/d/1vodTwuyGRayJlsegbbpd_G_K_GWYQBX2wptynW6PhJk/edit?usp=sharing"
         download
       >
@@ -51,7 +51,7 @@ export default function Resume() {
       <p className="mt-11 w-2/4 text-xl font-semibold text-green sm:justify-self-start">
         Education:
       </p>
-      <ul className="w-2/4 pb-11 sm:justify-self-start">
+      <ul className="w-2/4 pb-16 sm:justify-self-start">
         <li>
           St. Louis Community College - Associate in Arts (General Studies)
         </li>
