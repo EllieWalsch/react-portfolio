@@ -6,7 +6,7 @@ export default [
     github: "https://github.com/EllieWalsch/fbi-profiler",
     deployed: "https://fbi-profiler.herokuapp.com/login",
     id: 1,
-    src: { fbiProfiler },
+    src: fbiProfiler,
   },
   {
     name: "JATE",
