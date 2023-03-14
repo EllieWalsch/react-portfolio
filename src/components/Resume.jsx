@@ -48,6 +48,17 @@ export default function Resume() {
         </li>
         <li className="ml-5 list-disc">Schedule patient exams</li>
       </ul>
+      <p className="mt-11 w-2/4 text-xl font-semibold text-green sm:justify-self-start">
+        Education:
+      </p>
+      <ul className="w-2/4 pb-11 sm:justify-self-start">
+        <li>
+          St. Louis Community College - Associate in Arts (General Studies)
+        </li>
+        <li>
+          Washington University Full Stack Coding Bootcamp - Current Student
+        </li>
+      </ul>
     </main>
   );
 }
