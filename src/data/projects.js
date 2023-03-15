@@ -1,6 +1,7 @@
 import fbiProfiler from "../images/FBI-profiler.png";
 import JATE from "../images/JATE.png";
 import password from "../images/password.png";
+import quiz from "../images/quiz.png";
 
 export default [
   {
@@ -29,7 +30,7 @@ export default [
     github: "https://github.com/EllieWalsch/coding-quiz",
     deployed: "https://elliewalsch.github.io/coding-quiz/",
     id: 4,
-    src: "src/images/quiz.png",
+    src: quiz,
   },
   {
     name: "Work Day Scheduler",
