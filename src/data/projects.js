@@ -1,5 +1,6 @@
 import fbiProfiler from "../images/FBI-profiler.png";
 import JATE from "../images/JATE.png";
+import password from "../images/password.png";
 
 export default [
   {
@@ -21,7 +22,7 @@ export default [
     github: "https://github.com/EllieWalsch/password-generator",
     deployed: "https://elliewalsch.github.io/password-generator/",
     id: 3,
-    src: "src/images/password.png",
+    src: password,
   },
   {
     name: "Coding Quiz",
