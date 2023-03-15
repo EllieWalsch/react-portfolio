@@ -1,4 +1,5 @@
 import fbiProfiler from "../images/FBI-profiler.png";
+import foodFinder from "../images/Food-finder3.png";
 import JATE from "../images/JATE.png";
 import password from "../images/password.png";
 import quiz from "../images/quiz.png";
@@ -46,6 +47,6 @@ export default [
     deployed:
       "https://63857389528963204b4dc037--startling-biscuit-4e7633.netlify.app/",
     id: 6,
-    src: "src/images/Food-finder3.png",
+    src: foodFinder,
   },
 ];
