@@ -10,7 +10,7 @@ If you'd like to install this project, simply download the repo and run 'npm i' 
 
 ## Usage
 
-[Click here to visit my portfolio!](https://main--joyful-dusk-15c3a8.netlify.app/)
+[Click here to visit my portfolio!](https://joyful-dusk-15c3a8.netlify.app/)
 
 ![Ellie Walsch Portfolio](./src/images/portfolio.png)
 
