@@ -1,4 +1,5 @@
 import fbiProfiler from "../images/FBI-profiler.png";
+import JATE from "../images/JATE.png";
 
 export default [
   {
@@ -13,7 +14,7 @@ export default [
     github: "https://github.com/EllieWalsch/text-editor",
     deployed: "https://calm-oasis-46520.herokuapp.com/",
     id: 2,
-    src: "src/images/JATE.png",
+    src: JATE,
   },
   {
     name: "Password Generator",
