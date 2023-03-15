@@ -2,6 +2,7 @@ import fbiProfiler from "../images/FBI-profiler.png";
 import JATE from "../images/JATE.png";
 import password from "../images/password.png";
 import quiz from "../images/quiz.png";
+import schedule from "../images/schedule.png";
 
 export default [
   {
@@ -37,7 +38,7 @@ export default [
     github: "https://github.com/EllieWalsch/work-day-scheduler",
     deployed: "https://elliewalsch.github.io/work-day-scheduler/",
     id: 5,
-    src: "src/images/schedule.png",
+    src: schedule,
   },
   {
     name: "Food Finder",
