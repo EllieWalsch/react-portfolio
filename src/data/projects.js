@@ -1,8 +1,8 @@
 import fbiProfiler from "../images/FBI-profiler.png";
 import foodFinder from "../images/Food-finder3.png";
 import JATE from "../images/JATE.png";
-import password from "../images/password.png";
 import quiz from "../images/quiz.png";
+import rally from "../images/rally.png";
 import schedule from "../images/schedule.png";
 
 export default [
@@ -21,11 +21,11 @@ export default [
     src: JATE,
   },
   {
-    name: "Password Generator",
-    github: "https://github.com/EllieWalsch/password-generator",
-    deployed: "https://elliewalsch.github.io/password-generator/",
+    name: "Rally",
+    github: "https://github.com/luksvrd/Rally",
+    deployed: "https://dulcet-cascaron-584908.netlify.app/",
     id: 3,
-    src: password,
+    src: rally,
   },
   {
     name: "Coding Quiz",
